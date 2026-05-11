@@ -7,7 +7,10 @@ Designed as both an educational and demonstration project, MazeUnit highlights c
 ---
 
 ## 🚀 Live Demo
-[View Live Project on Render](https://mazeunit.onrender.com)
+
+[🌐 MazeUnit Live Demo (GitHub Pages)](https://sushamaray.github.io/MazeUnit/)
+
+[🟣 MazeUnit Live Demo (Render)](https://mazeunit.onrender.com)
 
 ---
 
