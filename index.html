@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MazeCore | A* Terminal Unit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="brand">MAZE<span>UNIT</span></div>
+            <div class="monitor-panel">
+                <div class="data-group">
+                    <label>Grid Matrix</label>
+                    <div class="val">16 x 16 (Braided)</div>
+                </div>
+                <div class="data-group">
+                    <label>Current Phase</label>
+                    <div id="strategy-text" class="val">IDLE</div>
+                </div>
+                <div class="data-group">
+                    <label>Lap Progress</label>
+                    <div id="lap-text" class="val">0 / 7</div>
+                </div>
+                <div class="data-group">
+                    <label>Simulation Speed</label>
+                    <input type="range" id="speedSlider" min="1" max="100" value="85">
+                </div>
+            </div>
+            <div class="controls">
+                <button id="generateBtn" class="btn-main">GENERATE MESH</button>
+                <button id="solveBtn" class="btn-alt">EXECUTE SOLVE</button>
+            </div>
+        </aside>
+        <main class="viewport">
+            <div class="maze-case">
+                <div id="maze-container"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
